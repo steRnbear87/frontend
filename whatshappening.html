@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/whatshappening.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>What's Happening Dallas?</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/whatshappening.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>WhatsHappening</title>
 </head>
+
 <body>
-        
-	<div class="container">
-                <div class="jumbotron">
-                    <img src="assets/images/HapLogo.png" id="logo">
-                </div>
-     
+
+  <div class="container">
+    <div class="jumbotron">
+      <img src="assets/images/HapLogo.png" id="logo">
     </div>
-    <div class="container">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-city"> Other Cities</i>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Dallas</button>
-              <button class="dropdown-item" type="button">New York</button>
-              <button class="dropdown-item" type="button">Chicago</button>
-              <button class="dropdown-item" type="button">Los Angeles</button>
-              <button class="dropdown-item" type="button">Houston</button>
+  </div>
+
+  <div class="container">
+      <div class="bg-primary">
+          <!-- Added data-toggle and data-target to specify an action -->
+          <div class="locall_menuItems">
+              <a class="btn btn-primary" href="index.html">Home</a>
+              <a class="btn btn-warning" href="whatshappening.html">WhatsHappening</a>
+              <a class="btn btn-secondary" href="about_us.html">DevTeam</a>
+              <a class="btn btn-success" href="login.html">Newsletter</a>
           </div>
-        </div>
       </div>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-          <a class="navbar-brand" href="#"></a>
-          <a href="#" class="btn btn-lg btn-primary" id="mnnav-btn"> <i class="fas fa-cocktail"></i>  Nightlife</a>
-          <a href="#" class="btn btn-lg btn-primary" id="mnnav-btn"><i class="fas fa-utensils"></i> Dining</a>
-          <a href="#" class="btn btn-lg btn-primary" id="mnnav-btn"><i class="far fa-calendar-alt"></i> Things To Do</a>
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </nav>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-city"> Other Cities</i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button class="dropdown-item" type="button">Dallas</button>
+        <button class="dropdown-item" type="button">New York</button>
+        <button class="dropdown-item" type="button">Chicago</button>
+        <button class="dropdown-item" type="button">Los Angeles</button>
+        <button class="dropdown-item" type="button">Houston</button>
       </div>
+    </div>
+  </div>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#"></a>
+      <a href="nightlife.html" class="btn btn-lg btn-primary" id="mnnav-btn"> <i class="fas fa-cocktail"></i> Nightlife</a>
+      <a href="dinning.html" class="btn btn-lg btn-primary" id="mnnav-btn"><i class="fas fa-utensils"></i> Dining</a>
+      <a href="thingstodo.html" class="btn btn-lg btn-primary" id="mnnav-btn"><i class="far fa-calendar-alt"></i> Things To Do</a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+  </div>
 
-
-    <div class="container">
+  <div class="container">
       <div class="row">
           <div class="col-xs-9"id="content-area">
             <img src="assets/images/image002.png" id="ticket-fpo">
@@ -63,11 +73,12 @@
           </div>
       </div>
     </div>
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-          <span class="text">Copyright 2019, What's Happening Media, Inc.</span>
-          
-        </div>
-    </footer>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text">Copyright 2019, What's Happening Media, Inc.</span>
+
+    </div>
+  </footer>
 </body>
+
 </html>

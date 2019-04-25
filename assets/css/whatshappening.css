@@ -1,5 +1,6 @@
 body {
     font-family: 'Asap', sans-serif;
+    background: url("../images/background1.jpg") no-repeat center center fixed;
 }
 
 .container {
@@ -9,6 +10,7 @@ body {
 
 .navbar {
     border-radius: 7px;
+    background-color: transparent;
 }
 
 .jumbotron {
